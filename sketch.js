@@ -7,7 +7,7 @@ let margine = 100;//margine pagina
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  frameRate(0.7) //ripetere il disegno in modi diversi
+  frameRate(1) //ripetere il disegno in modi diversi
 }
 //quando modifico la finestra ridisegno
 function windowResized() {
