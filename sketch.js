@@ -1,5 +1,5 @@
 //per la creazione dei miei glifi mi sono ispirata alle costellazioni, con variabili visive nei colori e nella forma
-//ho usato la trasformazione di traslazione e scaling
+//ho usato le trasformazioni di traslazione e scaling
 
 let griglia = 3;//punti griglia (3x3)
 let padding = 0.25;//padding glifo(25%)
