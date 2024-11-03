@@ -1,5 +1,5 @@
 //per la creazione dei miei glifi mi sono ispirata alle costellazioni, con variabili visive nei colori e nella forma
-//ho usato la trasformazione di traslazione
+//ho usato la trasformazione di traslazione e scaling
 
 let griglia = 3;//punti griglia (3x3)
 let padding = 0.25;//padding glifo(25%)
@@ -62,6 +62,9 @@ function costellazioni(startX, startY, dimensione) {
   let dimensioneefficace = dimensione * (1 - padding * 2); //la dimensione del glifo sottraendo il padding
   let punti = puntigriglia(dimensioneefficace); //array di punti su cui disegnare in base alla dimensione efficace 
   let puntiselezionati = punticasuali(punti, floor(random(2, 8))); //un numero casuale di punti dall'array utilizzando la funzione punticasuali
+
+  let scala = random(0.5, 1); // scala casuale
+  scale(scala); // applica lo scaling
 
 //linee bianche con opacità 200
   stroke(255, 200); 
