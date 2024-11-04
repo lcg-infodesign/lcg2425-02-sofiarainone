@@ -55,7 +55,7 @@ let offsetY = margine + (altezzatela - altezzatotale) / 2;
 }
 
 //costellazioni glifi
-// start sono le coordinate da cui inizio a disegnare e la dimensione è de glifo
+// start sono le coordinate da cui inizio a disegnare e la dimensione del glifo
 function costellazioni(startX, startY, dimensione) {
   push(); 
   translate(startX, startY);//tutti i disegni successivi saranno relativi a questo nuovo punto
