@@ -106,7 +106,7 @@ function puntigriglia(dimensione) {
       ));
     }
   }
-  return punti; //contiene tutti i punti generati nella griglia.
+  return punti; //contiene tutti i punti generati nella griglia
 }
 // seleziono un certo numero di punti casuali dall' array di punti no duplicati
 function punticasuali(punti, count) { //count è il numero di punti selezionati
